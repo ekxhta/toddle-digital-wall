@@ -1,0 +1,28 @@
+@import './Navbar';
+@import './SearchBar';
+@import './BoardCard';
+@import './CreateButton';
+
+.toddle-container
+{
+  height: 100vh;
+  // display: grid;
+  // grid-template-rows: 65px 1fr;
+}
+
+
+.board-bar h2
+{
+  padding: 2rem;
+}
+
+.board-columns
+{
+  padding: 1rem;
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  flex: 0 0 calc(100% / 3 - 10px); 
+}
